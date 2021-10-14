@@ -1,0 +1,143 @@
+@media all and (max-width: 1000px) {
+	.container ul, .model{
+		display: none;
+	}
+
+	span.menu-icon {
+    	display: block;
+    }
+
+    .wrapper-img{
+    	display: none;
+    }
+
+	.wrapper-text{
+		text-align: left;
+		align-items: left;
+	}
+
+	.wrapper-text button{
+		width: 50%;
+	}
+
+	.contents{
+		height: 1400px;
+	}
+
+	.box-container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.box-1,
+	.box-2, 
+	.box-3, 
+	.box-4, 
+	.box-5{
+		margin: 3px auto;
+		width: 50%;
+	}
+
+	.box-1 h1,
+	.box-2 h1,
+	.box-3 h1,
+	.box-4 h1,
+	.box-5 h1 {
+		font-size: 19px;
+	}
+
+	input, textarea{
+    	width: 75%;
+    }
+
+    .contacts img{
+    	display: none;
+    }
+
+    .contact{
+    	position: relative;
+    	margin: 0 auto;
+    	width: 50%;
+    }
+
+@media all and (max-width: 670px){
+	.container ul, .model{
+		display: none;
+	}
+
+	span.menu-icon {
+    	display: block;
+    }
+
+	.top-wrapper{
+    	margin: 30px;
+    }
+
+    .top-wrapper h1{
+    	font-size: 30px;
+    }
+
+    .wrapper-img{
+    	display: none;
+    }
+
+	.wrapper-text{
+		margin: 0 auto;
+		padding: 10px 0px;
+		text-align: left;
+		align-items: left;
+	}
+
+	.wrapper-text button{
+		width: 100%;
+	}
+
+    button{
+    	width: 100%;
+    }
+
+    footer p, .top-wrapper p, .box-container p{
+    	font-size: 15px;
+    }
+
+   .contact-text h1, .contents-text h1, footer h1{
+    	font-size: 25px;
+    }
+
+    .contents{
+		height: 2250px;
+	}
+
+	.box-container{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+    .box-1,
+	.box-2, 
+	.box-3, 
+	.box-4, 
+	.box-5{
+		width: 100%;
+		padding: 5px 20px;
+		margin: 5px auto;
+	}
+
+	.box-1 h1,
+	.box-2 h1,
+	.box-3 h1,
+	.box-4 h1,
+	.box-5 h1 {
+		font-size: 19px;
+	}
+
+	.contacts img{
+    	display: none;
+    }
+
+    .contact{
+    	position: relative;
+    	margin: 0 auto;
+    	width: 100%;
+    }
+}
