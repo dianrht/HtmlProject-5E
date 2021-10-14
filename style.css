@@ -20,14 +20,6 @@ header{
     position: relative;
 }
 
-span.menu-icon {
-  color: black;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
- 
 .container {
     display: flex;
     justify-content: space-between;
@@ -35,11 +27,38 @@ span.menu-icon {
     height:60px;
     background-color: #F7D59C;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
-    padding:0px 5%;
-     
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding-left: 5%;
+    padding-right: 5%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+.checkbtn {
+    color: black;
+    font-size: 25px;
+    cursor: pointer;
+    float: right;
+    display: none;
+    padding: 21px 0;
+}
+
+#check {
+    display: none;
+}
+
+.container ul li {
+    list-style: none;
+    display: inline-block;
+}
+
 .container ul{
-    display: flex;
+    align-items: right;
+    float: right;
 }
   
 .container ul li a{
